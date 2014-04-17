@@ -2,7 +2,7 @@ import play.Project._
 
 name := "ean"
 
-version := "1.0"
+version := "1.0.1"
 
 organization := "com.claydonkey"
 
