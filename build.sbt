@@ -2,12 +2,11 @@ import play.Project._
 
 name := "ean"
 
-version := "1.0-SNAPSHOT"
+version := "1.0"
+
+organization := "com.claydonkey"
 
 libraryDependencies ++= Seq(
-  jdbc,
-  anorm,
-  cache,
   "net.sf.barcode4j" % "barcode4j" % "2.1"
 )     
 
