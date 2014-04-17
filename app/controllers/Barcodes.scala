@@ -1,4 +1,4 @@
-package com.github.claydonkey.controllers
+package com.github.claydonkey.barcodes
 
 import play.api.mvc.{ Action, Controller }
 import org.krysalis.barcode4j.output.bitmap.BitmapCanvasProvider

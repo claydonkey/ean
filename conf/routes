@@ -1,4 +1,0 @@
-# Routes
-GET /:ean com.github.claydonkey.controllers.Barcodes.barcode(ean: Long)
-
- 
