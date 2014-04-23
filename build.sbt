@@ -6,8 +6,12 @@ version := "1.0.1"
 
 organization := "com.claydonkey"
 
-libraryDependencies ++= Seq(
-  "net.sf.barcode4j" % "barcode4j" % "2.1"
-)     
+resolvers += Resolver.url("Claydonkey Play Repository", url("http://claydonkey.github.io/releases/"))(Resolver.ivyStylePatterns)
+
+resolvers += "Local Maven Repository" at "file://"+Path.userHome.absolutePath+"/.m2/repository"
+
+libraryDependencies ++= Seq("org.krysalis" % "barcode4j" % "2.1-SNAPSHOT")  
+
+//libraryDependencies ++= Seq("net.sf.barcode4j" % "barcode4j" % "2.1")
 
 playScalaSettings

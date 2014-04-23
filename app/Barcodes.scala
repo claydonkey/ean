@@ -1,4 +1,5 @@
-import com.github.claydonkey.barcodes.{RenderResult, RenderImage}
+package com.github.claydonkey.barcodes
+
 import play.api.mvc.Action
 import akka.pattern.ask
 import org.krysalis.barcode4j.output.bitmap.BitmapCanvasProvider
@@ -25,7 +26,7 @@ object Barcodes extends Controller {
   }
    */
 
-object BarCodes  {
+object Barcodes  {
   var barcodeCache: ActorRef = _
   val mimeType = "image/png"
   val imageResolution = 144
