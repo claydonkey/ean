@@ -1,4 +1,4 @@
 # Routes
-GET /:ean com.github.claydonkey.barcodes.Barcodes.barcode(ean: Long)
+GET /:ean com.github.claydonkey.barcodes.BarcodesController.barcode(ean: Long)
 
  
